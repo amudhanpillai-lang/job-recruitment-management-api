@@ -1,0 +1,36 @@
+
+# Python virtual environments
+.venv
+.venv-1
+.venv-2
+venv
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+
+# Git
+.git
+.gitignore
+
+# Environment secrets
+.env
+
+# Uploaded files (stored in a Docker volume)
+uploads
+
+# Test and temporary files
+tests
+test_db.py
+test_redis.py
+alembic_temp
+
+# IDE files
+.vscode
+.idea
+
+# OS files
+.DS_Store
+Thumbs.db

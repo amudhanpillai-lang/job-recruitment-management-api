@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# Uploaded user documents
+uploads/
+
+# Temporary Alembic files
+alembic_temp/
