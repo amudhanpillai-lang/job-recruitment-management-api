@@ -4,10 +4,10 @@ import json
 
 jobs_data = []
 
-result = redis_client.setex(
+redis_client.set(
     "jobs:all",
-    300,
-    json.dumps(jobs_data)
+    json.dumps(jobs_data),
+    ex=300
 )
 
 print("SETEX result:", result)
